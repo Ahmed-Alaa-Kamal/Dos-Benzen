@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: "DM Sans", sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px #5e5280d2;
+      width: 90%;
+      max-width: 1000px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .section1 {
+      text-align: center;
+    }
+
+    .section1 h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .section1 p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .mail-icon {
+      font-size: 100px;
+      color: #3d55ca;
+      margin: 20px auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .go {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .go-back {
+      background-color: #3d55ca;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    button.close {
+      background-color: #3d55ca;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <form>
+    <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Logo"
+      style="width: 100px; height: 100px; display: block; margin: 0 auto" />
+    <div class="section1">
+      <h1>Thank you for contacting us</h1>
+      <p>
+        We appreciate your message and will get back to you as soon as
+        possible.
+      </p>
+      <p>
+        If you have any urgent inquiries, please feel free to reach out to us
+        directly at our contact number or email.
+      </p>
+    </div>
+    <div class="mail-icon">
+      <i class="fa-regular fa-envelope"></i>
+    </div>
+    <div class="go">
+      <button type="button" class="go-back" onclick="window.location.href='Home.html'">
+        Go Back to Homepage
+      </button>
+    </div>
+    <button type="button" class="close" onclick="window.location.href='Contact Us-final.html'">
+      Close
+    </button>
+  </form>
+</body>
+
+</html>
